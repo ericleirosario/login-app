@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+:root {
+    --body-black-color: #0A0A10;
+    --text-white-color: #ffffff;
+    --text-black-color: rgba(255, 255, 255, 0.60);
+    --button-red-color: #D93856;
+    --button-black-color: rgba(255, 255, 255, 0.14);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-white-color);
+    outline: none;
+}
+
+body {
+    background: var(--body-black-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    padding: 20px 0;
+}
+
+.login-container {
+    max-width: 414px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.image-login {
+    width: 345px;
+    height: auto;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input-container label {
+    color: var(--text-black-color);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+}
+
+.input-container input {
+    color: var(--text-white-color);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    margin-bottom: 32px;
+    padding: 9px 6px;
+    border: none;
+    border-bottom: 1px solid var(--text-black-color);
+    background: transparent;
+}
+
+button {
+    width: 100%;
+    height: 68px;
+    color: var(--text-white-color);
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.5px; /* 14.706% */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.button-login {
+    background: var(--button-red-color);
+    margin-bottom: 14px;
+}
+
+.button-login-in-google {
+    gap: 24px;
+    background: var(--button-black-color);
+}
+
+.button-login:active, .button-login-in-google:active {
+    opacity: 100%;
+}
+
+p {
+    color:var(--text-black-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 46px;
+}
+
+.create-account {
+    text-decoration: none;
+}
+
+.create-account:hover {
+    text-decoration: underline;
+}
