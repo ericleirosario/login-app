@@ -97,17 +97,17 @@ button:hover {
     opacity: 0.8;
 }
 
-.button-login {
+.button-login, .button-create {
     background: var(--button-red-color);
     margin-bottom: 14px;
 }
 
-.button-login-in-google {
+.button-google {
     gap: 24px;
     background: var(--button-black-color);
 }
 
-.button-login:active, .button-login-in-google:active {
+.button-login:active, .button-google:active, .button-create:active {
     opacity: 100%;
 }
 
@@ -119,10 +119,18 @@ p {
     margin-top: 46px;
 }
 
-.create-account {
+.account {
     text-decoration: none;
 }
 
-.create-account:hover {
+.account:hover {
     text-decoration: underline;
+}
+
+
+@media screen and (min-height: 800px) {
+    body {
+        height: 100vh;
+        padding: 0;
+    }
 }
