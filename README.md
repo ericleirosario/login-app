@@ -3,8 +3,8 @@
 <p>O projeto consiste na criação de uma interface de tela de login. A proposta central é proporcionar uma experiência de usuário intuitiva e agradável, combinando design moderno e funcionalidade.</p>
 
 <div align=center>  
-    <img width=180px heigth=auto src="" alt="Login App Mobile"/>
-    <img width=635px heigth=auto src="" alt="Login App Desktop"/>  
+    <img width=180px heigth=auto src="https://github.com/ericleirosario/login-app/blob/main/assets/login-app-mobile.png?raw=true" alt="Login App Mobile"/>
+    <img width=635px heigth=auto src="https://github.com/ericleirosario/login-app/blob/main/assets/login-app-desktop.png?raw=true" alt="Login App Desktop"/>  
 </div>
 
 ## Desenvolvimento da Aplicação
